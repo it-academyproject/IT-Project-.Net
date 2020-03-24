@@ -117,6 +117,9 @@ namespace ItAcademyProjecteNET.Migrations
                     b.Property<int>("PersonGender")
                         .HasColumnType("int");
 
+                    b.Property<int>("PersonRole")
+                        .HasColumnType("int");
+
                     b.Property<string>("Picture")
                         .HasColumnType("nvarchar(max)");
 

@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace ItAcademyProjecteNET.Migrations
 {
-    public partial class Initial : Migration
+    public partial class initialMigration : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -13,8 +13,8 @@ namespace ItAcademyProjecteNET.Migrations
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Name = table.Column<string>(nullable: true),
-                    Description = table.Column<string>(nullable: true),
+                    Name = table.Column<string>(nullable: false),
+                    Description = table.Column<string>(nullable: false),
                     Date = table.Column<DateTime>(nullable: false),
                     Place = table.Column<string>(nullable: true),
                     EventType = table.Column<int>(nullable: false)
@@ -30,13 +30,13 @@ namespace ItAcademyProjecteNET.Migrations
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Name = table.Column<string>(nullable: true),
-                    ShortDescription = table.Column<string>(nullable: true),
-                    Description = table.Column<string>(nullable: true),
+                    Name = table.Column<string>(nullable: false),
+                    ShortDescription = table.Column<string>(nullable: false),
+                    Description = table.Column<string>(nullable: false),
                     IsCommonBlock = table.Column<bool>(nullable: false),
                     Itinerary = table.Column<int>(nullable: false),
                     ResourceLevel = table.Column<int>(nullable: false),
-                    AvalableTime = table.Column<string>(nullable: true),
+                    AvalableTime = table.Column<string>(nullable: false),
                     DeliveryDate = table.Column<DateTime>(nullable: false),
                     ExerciseStatus = table.Column<int>(nullable: false)
                 },
@@ -65,15 +65,15 @@ namespace ItAcademyProjecteNET.Migrations
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Name = table.Column<string>(nullable: true),
-                    ShortDescription = table.Column<string>(nullable: true),
-                    Description = table.Column<string>(nullable: true),
+                    Name = table.Column<string>(nullable: false),
+                    ShortDescription = table.Column<string>(nullable: false),
+                    Description = table.Column<string>(nullable: false),
                     IsCommonBlock = table.Column<bool>(nullable: false),
                     Itinerary = table.Column<int>(nullable: false),
                     ResourceLevel = table.Column<int>(nullable: false),
-                    Lesson = table.Column<string>(nullable: true),
+                    Lesson = table.Column<string>(nullable: false),
                     MaterialType = table.Column<int>(nullable: false),
-                    MaterialLink = table.Column<string>(nullable: true)
+                    MaterialLink = table.Column<string>(nullable: false)
                 },
                 constraints: table =>
                 {
@@ -86,21 +86,22 @@ namespace ItAcademyProjecteNET.Migrations
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Name = table.Column<string>(nullable: true),
-                    LastName = table.Column<string>(nullable: true),
+                    Name = table.Column<string>(nullable: false),
+                    LastName = table.Column<string>(nullable: false),
                     Age = table.Column<int>(nullable: false),
                     PersonGender = table.Column<int>(nullable: false),
-                    Email = table.Column<string>(nullable: true),
-                    Password = table.Column<string>(nullable: true),
-                    Picture = table.Column<string>(nullable: true),
+                    Email = table.Column<string>(nullable: false),
+                    Password = table.Column<string>(nullable: false),
+                    Picture = table.Column<string>(nullable: false),
                     BirthDate = table.Column<DateTime>(nullable: false),
+                    PersonRole = table.Column<int>(nullable: false),
                     Discriminator = table.Column<string>(nullable: false),
-                    Absences = table.Column<int>(nullable: true),
-                    LastLogin = table.Column<DateTime>(nullable: true),
-                    BeginData = table.Column<DateTime>(nullable: true),
-                    EndData = table.Column<DateTime>(nullable: true),
-                    Itinerary = table.Column<int>(nullable: true),
-                    EventId = table.Column<int>(nullable: true)
+                    Absences = table.Column<int>(nullable: false),
+                    LastLogin = table.Column<DateTime>(nullable: false),
+                    BeginData = table.Column<DateTime>(nullable: false),
+                    EndData = table.Column<DateTime>(nullable: false),
+                    Itinerary = table.Column<int>(nullable: false),
+                    EventId = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
                 {

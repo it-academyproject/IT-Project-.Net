@@ -25,6 +25,7 @@ namespace ItAcademyProjecteNET.Lib.Models
         public string Password { get; set; }
         public string Picture { get; set; }
         public DateTime BirthDate { get; set;  }
+        public PersonRole PersonRole { get; set; }
 
     }
 }

@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ItAcademyProjecteNET.Migrations
 {
     [DbContext(typeof(ItAcademyDbContext))]
-    [Migration("20200323191554_Initial")]
-    partial class Initial
+    [Migration("20200324124712_initialMigration")]
+    partial class initialMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -117,6 +117,9 @@ namespace ItAcademyProjecteNET.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("PersonGender")
+                        .HasColumnType("int");
+
+                    b.Property<int>("PersonRole")
                         .HasColumnType("int");
 
                     b.Property<string>("Picture")
