@@ -7,10 +7,10 @@ namespace ItAcademyProjecteNET.Lib.Models.Enums
 {
     public enum EventTypes
     {
-        Masterclass,
-        Presentation,
-        Holidays,
-        LocalHoliday,
-        NationalFestive
+        Masterclass = 1,
+        Presentation = 2,
+        Holidays = 3,
+        LocalHoliday = 4,
+        NationalFestive = 5
     }
 }

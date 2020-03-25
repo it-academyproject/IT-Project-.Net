@@ -7,10 +7,10 @@ namespace ItAcademyProjecteNET.Lib.Models.Enums
 {
     public enum ExerciseStatus
     {
-        Pending,
-        Delivered,
-        Returned,
-        Checked
+        Pending = 1,
+        Delivered = 2,
+        Returned = 3,
+        Checked = 4
     }
 }
 

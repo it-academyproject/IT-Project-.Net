@@ -7,9 +7,9 @@ namespace CoItAcademyProjecteNET.LibdeFirst.Models.Enums
 {
     public enum PersonGenders
     {
-        Male,
-        Female,
-        Other,
-        Undefined
+        Male = 1,
+        Female = 2,
+        Other = 3,
+        Undefined = 4
     }
 }

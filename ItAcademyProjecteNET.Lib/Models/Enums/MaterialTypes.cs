@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 namespace ItAcademyProjecteNET.Lib.Models.Enums
 {
     public enum MaterialTypes
-    { 
-            video,
-            document,
-            other
-       
+    {
+        video = 1,
+        document = 2,
+        other = 3
+
     }
 }

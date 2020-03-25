@@ -7,8 +7,8 @@ namespace ItAcademyProjecteNET.Lib.Models.Enums
 {
     public enum ResourceLevels
     {
-        Basic,
-        Middle,
-        Advanced
+        Basic = 1,
+        Middle = 2,
+        Advanced = 3
     }
 }

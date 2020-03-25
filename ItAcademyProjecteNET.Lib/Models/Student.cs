@@ -15,9 +15,20 @@ namespace ItAcademyProjecteNET.Lib.Models
 
         public DateTime BeginData { get; set; }
 
-        public DateTime EndData { get; set; }       
+        public DateTime EndData { get; set; }
 
+
+        [Column("Itinerary")]
+        public string ItineraryString
+        {
+            get { return Itinerary.ToString(); }
+            private set { Itinerary = value.ParseEnum<Itineraries>(); }
+        }
+
+        [NotMapped]
         public Itineraries Itinerary { get; set; }
+
+
 
     }
 }

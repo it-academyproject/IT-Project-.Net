@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jordi\\source\\repos\\ITAcademyProjecte\\Projecte\\ItAcademyProjecteNET.Lib\\ItAcademyProjecteNET.Lib.csproj",
+      "projectUniqueName": "C:\\Users\\jordi\\source\\repos\\ProjecteItAcademy\\IT-Project-.Net\\ItAcademyProjecteNET.Lib\\ItAcademyProjecteNET.Lib.csproj",
       "projectName": "ItAcademyProjecteNET.Lib",
-      "projectPath": "C:\\Users\\jordi\\source\\repos\\ITAcademyProjecte\\Projecte\\ItAcademyProjecteNET.Lib\\ItAcademyProjecteNET.Lib.csproj",
+      "projectPath": "C:\\Users\\jordi\\source\\repos\\ProjecteItAcademy\\IT-Project-.Net\\ItAcademyProjecteNET.Lib\\ItAcademyProjecteNET.Lib.csproj",
       "packagesPath": "C:\\Users\\jordi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jordi\\source\\repos\\ITAcademyProjecte\\Projecte\\ItAcademyProjecteNET.Lib\\obj\\",
+      "outputPath": "C:\\Users\\jordi\\source\\repos\\ProjecteItAcademy\\IT-Project-.Net\\ItAcademyProjecteNET.Lib\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

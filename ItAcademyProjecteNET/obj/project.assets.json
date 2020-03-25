@@ -8622,11 +8622,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jordi\\source\\repos\\ITAcademyProjecte\\Projecte\\ItAcademyProjecteNET\\ItAcademyProjecteNET.csproj",
+      "projectUniqueName": "C:\\Users\\jordi\\source\\repos\\ProjecteItAcademy\\IT-Project-.Net\\ItAcademyProjecteNET\\ItAcademyProjecteNET.csproj",
       "projectName": "ItAcademyProjecteNET",
-      "projectPath": "C:\\Users\\jordi\\source\\repos\\ITAcademyProjecte\\Projecte\\ItAcademyProjecteNET\\ItAcademyProjecteNET.csproj",
+      "projectPath": "C:\\Users\\jordi\\source\\repos\\ProjecteItAcademy\\IT-Project-.Net\\ItAcademyProjecteNET\\ItAcademyProjecteNET.csproj",
       "packagesPath": "C:\\Users\\jordi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jordi\\source\\repos\\ITAcademyProjecte\\Projecte\\ItAcademyProjecteNET\\obj\\",
+      "outputPath": "C:\\Users\\jordi\\source\\repos\\ProjecteItAcademy\\IT-Project-.Net\\ItAcademyProjecteNET\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -8646,11 +8646,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\jordi\\source\\repos\\ITAcademyProjecte\\Projecte\\ItAcademyProjecteNET.Lib.DAL\\ItAcademyProjecteNET.Lib.DAL.csproj": {
-              "projectPath": "C:\\Users\\jordi\\source\\repos\\ITAcademyProjecte\\Projecte\\ItAcademyProjecteNET.Lib.DAL\\ItAcademyProjecteNET.Lib.DAL.csproj"
+            "C:\\Users\\jordi\\source\\repos\\ProjecteItAcademy\\IT-Project-.Net\\ItAcademyProjecteNET.Lib.DAL\\ItAcademyProjecteNET.Lib.DAL.csproj": {
+              "projectPath": "C:\\Users\\jordi\\source\\repos\\ProjecteItAcademy\\IT-Project-.Net\\ItAcademyProjecteNET.Lib.DAL\\ItAcademyProjecteNET.Lib.DAL.csproj"
             },
-            "C:\\Users\\jordi\\source\\repos\\ITAcademyProjecte\\Projecte\\ItAcademyProjecteNET.Lib\\ItAcademyProjecteNET.Lib.csproj": {
-              "projectPath": "C:\\Users\\jordi\\source\\repos\\ITAcademyProjecte\\Projecte\\ItAcademyProjecteNET.Lib\\ItAcademyProjecteNET.Lib.csproj"
+            "C:\\Users\\jordi\\source\\repos\\ProjecteItAcademy\\IT-Project-.Net\\ItAcademyProjecteNET.Lib\\ItAcademyProjecteNET.Lib.csproj": {
+              "projectPath": "C:\\Users\\jordi\\source\\repos\\ProjecteItAcademy\\IT-Project-.Net\\ItAcademyProjecteNET.Lib\\ItAcademyProjecteNET.Lib.csproj"
             }
           }
         }

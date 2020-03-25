@@ -1,6 +1,7 @@
 ﻿using ItAcademyProjecteNET.Lib.Models.Enums;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -19,6 +20,14 @@ namespace ItAcademyProjecteNET.Lib.Models
 
         public string Place { get; set; }
 
+        [Column("EventType")]
+        public string EventTypeString
+        {
+            get { return EventType.ToString(); }
+            private set { EventType = value.ParseEnum<EventTypes>(); }
+        }
+
+        [NotMapped]
         public EventTypes EventType { get; set; }
 
     }
