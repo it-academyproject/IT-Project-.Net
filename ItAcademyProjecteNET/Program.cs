@@ -13,6 +13,8 @@ namespace ItAcademyProjecteNET
     {
         public static void Main(string[] args)
         {
+            var fill = new FillDictionary();
+
             CreateHostBuilder(args).Build().Run();
         }
 

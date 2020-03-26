@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "+G6hjivCNK9b5Mv7imCjCfZIQWivwcMGxG6thuYPMWAg3hgetvTZ9rm8FzZgWib+6KY5PCe1dtb9QiN/XaH7pQ==",
+  "dgSpecHash": "DuVGhPl48X/ToZu19xvgTak7XiyrkL32LcsfK2imS+d4FSPzW212jHlCsku+u+R5ZWg4GzOtLDrh9X4ua+xZQA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Eugene\\Project_IT_Academy\\ItAcademyProjecteDotNET\\ItAcademyProjecteNET.Lib.DAL\\ItAcademyProjecteNET.Lib.DAL.csproj",
+  "projectFilePath": "C:\\Users\\Eugene\\Project_IT_Academy\\IT-Project-.Net\\ItAcademyProjecteNET.Lib.DAL\\ItAcademyProjecteNET.Lib.DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Eugene\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\Eugene\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
+    "C:\\Users\\Eugene\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Eugene\\.nuget\\packages\\microsoft.entityframeworkcore\\3.1.2\\microsoft.entityframeworkcore.3.1.2.nupkg.sha512",
     "C:\\Users\\Eugene\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\3.1.2\\microsoft.entityframeworkcore.abstractions.3.1.2.nupkg.sha512",
     "C:\\Users\\Eugene\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\3.1.2\\microsoft.entityframeworkcore.analyzers.3.1.2.nupkg.sha512",
@@ -20,9 +21,12 @@
     "C:\\Users\\Eugene\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.2\\microsoft.extensions.logging.abstractions.3.1.2.nupkg.sha512",
     "C:\\Users\\Eugene\\.nuget\\packages\\microsoft.extensions.options\\3.1.2\\microsoft.extensions.options.3.1.2.nupkg.sha512",
     "C:\\Users\\Eugene\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.2\\microsoft.extensions.primitives.3.1.2.nupkg.sha512",
+    "C:\\Users\\Eugene\\.nuget\\packages\\microsoft.identitymodel.logging\\6.5.0\\microsoft.identitymodel.logging.6.5.0.nupkg.sha512",
+    "C:\\Users\\Eugene\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.5.0\\microsoft.identitymodel.tokens.6.5.0.nupkg.sha512",
     "C:\\Users\\Eugene\\.nuget\\packages\\system.collections.immutable\\1.7.0\\system.collections.immutable.1.7.0.nupkg.sha512",
     "C:\\Users\\Eugene\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
-    "C:\\Users\\Eugene\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.0\\system.diagnostics.diagnosticsource.4.7.0.nupkg.sha512"
+    "C:\\Users\\Eugene\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.0\\system.diagnostics.diagnosticsource.4.7.0.nupkg.sha512",
+    "C:\\Users\\Eugene\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }

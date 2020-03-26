@@ -13,12 +13,12 @@ namespace ItAcademyProjecteNET.Lib.DAL.Context
         {
 
         }
-        public DbSet<Person> Person { get; set; }
-        public DbSet<Student> Student { get; set; }
-        public DbSet<Event> Event { get; set; }
-        public DbSet<Exercise> Exercise { get; set; }
-        public DbSet<TeachingMaterial> TeachingMaterial { get; set; }
-        public DbSet<StudentExercise> StudentExercise { get; set; }
+        public DbSet<Person> Persons { get; set; }
+        public DbSet<Student> Students { get; set; }
+        public DbSet<Event> Events { get; set; }
+        public DbSet<Exercise> Exercises { get; set; }
+        public DbSet<TeachingMaterial> TeachingMaterials { get; set; }
+        public DbSet<StudentExercise> StudentExercises { get; set; }
     }
     
 }

@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ItAcademyProjecteNET.Migrations
 {
     [DbContext(typeof(ItAcademyDbContext))]
-    [Migration("20200324124712_initialMigration")]
-    partial class initialMigration
+    [Migration("20200326141754_Initial")]
+    partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -34,8 +34,9 @@ namespace ItAcademyProjecteNET.Migrations
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("EventType")
-                        .HasColumnType("int");
+                    b.Property<string>("EventTypeString")
+                        .HasColumnName("EventType")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
@@ -45,7 +46,7 @@ namespace ItAcademyProjecteNET.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Event");
+                    b.ToTable("Events");
                 });
 
             modelBuilder.Entity("ItAcademyProjecteNET.Lib.Models.Exercise", b =>
@@ -64,27 +65,30 @@ namespace ItAcademyProjecteNET.Migrations
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("ExerciseStatus")
-                        .HasColumnType("int");
+                    b.Property<string>("ExerciseStatusString")
+                        .HasColumnName("ExerciseStatus")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("IsCommonBlock")
                         .HasColumnType("bit");
 
-                    b.Property<int>("Itinerary")
-                        .HasColumnType("int");
+                    b.Property<string>("ItineraryString")
+                        .HasColumnName("Itinerary")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("ResourceLevel")
-                        .HasColumnType("int");
+                    b.Property<string>("ResourceLevelString")
+                        .HasColumnName("ResourceLevel")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ShortDescription")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Exercise");
+                    b.ToTable("Exercises");
                 });
 
             modelBuilder.Entity("ItAcademyProjecteNET.Lib.Models.Person", b =>
@@ -116,18 +120,20 @@ namespace ItAcademyProjecteNET.Migrations
                     b.Property<string>("Password")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("PersonGender")
-                        .HasColumnType("int");
+                    b.Property<string>("PersonGenderString")
+                        .HasColumnName("PersonGender")
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("PersonRole")
-                        .HasColumnType("int");
+                    b.Property<string>("PersonRoleString")
+                        .HasColumnName("PersonRole")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Picture")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Person");
+                    b.ToTable("Persons");
 
                     b.HasDiscriminator<string>("Discriminator").HasValue("Person");
                 });
@@ -147,7 +153,7 @@ namespace ItAcademyProjecteNET.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("StudentExercise");
+                    b.ToTable("StudentExercises");
                 });
 
             modelBuilder.Entity("ItAcademyProjecteNET.Lib.Models.TeachingMaterial", b =>
@@ -163,8 +169,9 @@ namespace ItAcademyProjecteNET.Migrations
                     b.Property<bool>("IsCommonBlock")
                         .HasColumnType("bit");
 
-                    b.Property<int>("Itinerary")
-                        .HasColumnType("int");
+                    b.Property<string>("ItineraryString")
+                        .HasColumnName("Itinerary")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Lesson")
                         .HasColumnType("nvarchar(max)");
@@ -172,21 +179,23 @@ namespace ItAcademyProjecteNET.Migrations
                     b.Property<string>("MaterialLink")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("MaterialType")
-                        .HasColumnType("int");
+                    b.Property<string>("MaterialTypeString")
+                        .HasColumnName("MaterialType")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("ResourceLevel")
-                        .HasColumnType("int");
+                    b.Property<string>("ResourceLevelString")
+                        .HasColumnName("ResourceLevel")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ShortDescription")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
-                    b.ToTable("TeachingMaterial");
+                    b.ToTable("TeachingMaterials");
                 });
 
             modelBuilder.Entity("ItAcademyProjecteNET.Lib.Models.Student", b =>
@@ -205,8 +214,9 @@ namespace ItAcademyProjecteNET.Migrations
                     b.Property<int?>("EventId")
                         .HasColumnType("int");
 
-                    b.Property<int>("Itinerary")
-                        .HasColumnType("int");
+                    b.Property<string>("ItineraryString")
+                        .HasColumnName("Itinerary")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("LastLogin")
                         .HasColumnType("datetime2");

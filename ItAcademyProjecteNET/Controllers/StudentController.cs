@@ -12,11 +12,11 @@ namespace ItAcademyProjecteNET.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class StudentsController : ControllerBase
+    public class StudentController : ControllerBase
     {
         private readonly ItAcademyDbContext _context;
 
-        public StudentsController(ItAcademyDbContext context)
+        public StudentController(ItAcademyDbContext context)
         {
             _context = context;
         }
@@ -25,14 +25,14 @@ namespace ItAcademyProjecteNET.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Student>>> GetStudent()
         {
-            return await _context.Student.ToListAsync();
+            return await _context.Students.ToListAsync();
         }
 
         // GET: api/Students/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Student>> GetStudent(int id)
         {
-            var student = await _context.Student.FindAsync(id);
+            var student = await _context.Students.FindAsync(id);
 
             if (student == null)
             {
@@ -80,7 +80,7 @@ namespace ItAcademyProjecteNET.Controllers
         [HttpPost]
         public async Task<ActionResult<Student>> PostStudent(Student student)
         {
-            _context.Student.Add(student);
+            _context.Students.Add(student);
             await _context.SaveChangesAsync();
 
             return CreatedAtAction("GetStudent", new { id = student.Id }, student);
@@ -90,13 +90,13 @@ namespace ItAcademyProjecteNET.Controllers
         [HttpDelete("{id}")]
         public async Task<ActionResult<Student>> DeleteStudent(int id)
         {
-            var student = await _context.Student.FindAsync(id);
+            var student = await _context.Students.FindAsync(id);
             if (student == null)
             {
                 return NotFound();
             }
 
-            _context.Student.Remove(student);
+            _context.Students.Remove(student);
             await _context.SaveChangesAsync();
 
             return student;
@@ -104,7 +104,7 @@ namespace ItAcademyProjecteNET.Controllers
 
         private bool StudentExists(int id)
         {
-            return _context.Student.Any(e => e.Id == id);
+            return _context.Students.Any(e => e.Id == id);
         }
     }
 }

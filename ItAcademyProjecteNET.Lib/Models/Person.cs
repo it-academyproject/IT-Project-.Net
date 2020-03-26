@@ -26,7 +26,6 @@ namespace ItAcademyProjecteNET.Lib.Models
         public string Picture { get; set; }
         public DateTime BirthDate { get; set;  }
 
-
         [Column("PersonGender")]
         public string PersonGenderString
         {
@@ -47,7 +46,6 @@ namespace ItAcademyProjecteNET.Lib.Models
 
         [NotMapped]
         public PersonRoles PersonRole { get; set; }
-
-
+        
     }
 }

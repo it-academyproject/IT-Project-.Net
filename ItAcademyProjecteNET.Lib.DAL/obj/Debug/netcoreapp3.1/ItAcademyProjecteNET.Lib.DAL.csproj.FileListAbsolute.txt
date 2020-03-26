@@ -43,3 +43,15 @@ C:\Users\jordi\source\repos\ProjecteItAcademy\IT-Project-.Net\ItAcademyProjecteN
 C:\Users\jordi\source\repos\ProjecteItAcademy\IT-Project-.Net\ItAcademyProjecteNET.Lib.DAL\obj\Debug\netcoreapp3.1\ItAcademyProjecteNET.Lib.DAL.csproj.CopyComplete
 C:\Users\jordi\source\repos\ProjecteItAcademy\IT-Project-.Net\ItAcademyProjecteNET.Lib.DAL\obj\Debug\netcoreapp3.1\ItAcademyProjecteNET.Lib.DAL.dll
 C:\Users\jordi\source\repos\ProjecteItAcademy\IT-Project-.Net\ItAcademyProjecteNET.Lib.DAL\obj\Debug\netcoreapp3.1\ItAcademyProjecteNET.Lib.DAL.pdb
+C:\Users\Eugene\Project_IT_Academy\IT-Project-.Net\ItAcademyProjecteNET.Lib.DAL\bin\Debug\netcoreapp3.1\ItAcademyProjecteNET.Lib.DAL.deps.json
+C:\Users\Eugene\Project_IT_Academy\IT-Project-.Net\ItAcademyProjecteNET.Lib.DAL\bin\Debug\netcoreapp3.1\ItAcademyProjecteNET.Lib.DAL.dll
+C:\Users\Eugene\Project_IT_Academy\IT-Project-.Net\ItAcademyProjecteNET.Lib.DAL\bin\Debug\netcoreapp3.1\ItAcademyProjecteNET.Lib.DAL.pdb
+C:\Users\Eugene\Project_IT_Academy\IT-Project-.Net\ItAcademyProjecteNET.Lib.DAL\bin\Debug\netcoreapp3.1\ItAcademyProjecteNET.Lib.dll
+C:\Users\Eugene\Project_IT_Academy\IT-Project-.Net\ItAcademyProjecteNET.Lib.DAL\bin\Debug\netcoreapp3.1\ItAcademyProjecteNET.Lib.pdb
+C:\Users\Eugene\Project_IT_Academy\IT-Project-.Net\ItAcademyProjecteNET.Lib.DAL\obj\Debug\netcoreapp3.1\ItAcademyProjecteNET.Lib.DAL.csprojAssemblyReference.cache
+C:\Users\Eugene\Project_IT_Academy\IT-Project-.Net\ItAcademyProjecteNET.Lib.DAL\obj\Debug\netcoreapp3.1\ItAcademyProjecteNET.Lib.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Eugene\Project_IT_Academy\IT-Project-.Net\ItAcademyProjecteNET.Lib.DAL\obj\Debug\netcoreapp3.1\ItAcademyProjecteNET.Lib.DAL.AssemblyInfoInputs.cache
+C:\Users\Eugene\Project_IT_Academy\IT-Project-.Net\ItAcademyProjecteNET.Lib.DAL\obj\Debug\netcoreapp3.1\ItAcademyProjecteNET.Lib.DAL.AssemblyInfo.cs
+C:\Users\Eugene\Project_IT_Academy\IT-Project-.Net\ItAcademyProjecteNET.Lib.DAL\obj\Debug\netcoreapp3.1\ItAcademyProjecteNET.Lib.DAL.csproj.CopyComplete
+C:\Users\Eugene\Project_IT_Academy\IT-Project-.Net\ItAcademyProjecteNET.Lib.DAL\obj\Debug\netcoreapp3.1\ItAcademyProjecteNET.Lib.DAL.dll
+C:\Users\Eugene\Project_IT_Academy\IT-Project-.Net\ItAcademyProjecteNET.Lib.DAL\obj\Debug\netcoreapp3.1\ItAcademyProjecteNET.Lib.DAL.pdb
