@@ -16,7 +16,9 @@ namespace ItAcademyProjecteNET.Lib.Models
 
         public DateTime Date { get; set; }
 
-        public List<Student> Attendants { get; set; }
+        //public List<Student> Attendants { get; set; }
+        [NotMapped]
+        public virtual ICollection<Student> Students { get; set; }
 
         public string Place { get; set; }
 

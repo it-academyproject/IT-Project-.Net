@@ -136,24 +136,6 @@ namespace ItAcademyProjecteNET.Migrations
                     b.HasDiscriminator<string>("Discriminator").HasValue("Person");
                 });
 
-            modelBuilder.Entity("ItAcademyProjecteNET.Lib.Models.StudentExercise", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<Guid>("ExerciseId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<Guid>("StudentId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("StudentExercises");
-                });
-
             modelBuilder.Entity("ItAcademyProjecteNET.Lib.Models.TeachingMaterial", b =>
                 {
                     b.Property<int>("Id")
@@ -209,9 +191,6 @@ namespace ItAcademyProjecteNET.Migrations
                     b.Property<DateTime>("EndData")
                         .HasColumnType("datetime2");
 
-                    b.Property<int?>("EventId")
-                        .HasColumnType("int");
-
                     b.Property<string>("ItineraryString")
                         .HasColumnName("Itinerary")
                         .HasColumnType("nvarchar(max)");
@@ -219,16 +198,7 @@ namespace ItAcademyProjecteNET.Migrations
                     b.Property<DateTime>("LastLogin")
                         .HasColumnType("datetime2");
 
-                    b.HasIndex("EventId");
-
                     b.HasDiscriminator().HasValue("Student");
-                });
-
-            modelBuilder.Entity("ItAcademyProjecteNET.Lib.Models.Student", b =>
-                {
-                    b.HasOne("ItAcademyProjecteNET.Lib.Models.Event", null)
-                        .WithMany("Attendants")
-                        .HasForeignKey("EventId");
                 });
 #pragma warning restore 612, 618
         }

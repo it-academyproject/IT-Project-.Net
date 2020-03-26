@@ -18,7 +18,7 @@ namespace ItAcademyProjecteNET.Lib.DAL.Context
         public DbSet<Event> Events { get; set; }
         public DbSet<Exercise> Exercises { get; set; }
         public DbSet<TeachingMaterial> TeachingMaterials { get; set; }
-        public DbSet<StudentExercise> StudentExercises { get; set; }
+        //public DbSet<StudentExercise> StudentExercises { get; set; }
     }
     
 }

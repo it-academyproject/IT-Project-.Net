@@ -30,7 +30,7 @@ namespace ItAcademyProjecteNET
 
             var dbContext = new ItAcademyDbContext(optionsBuilder.Options);
 
-            var repo = new PersonRepository(dbContext);
+            var repoPerson = new PersonRepository(dbContext);
 
             var person = new Person();
 
@@ -40,9 +40,56 @@ namespace ItAcademyProjecteNET
             person.PersonRole = PersonRoles.Admin;
             person.PersonGender = PersonGenders.Female;
             person.Picture = "picture";
-            person.Password = "12345";          
+            person.Password = "12345";
 
-            repo.Add(person);
+            repoPerson.Add(person);
+
+
+
+            var repoEvent = new EventRepository(dbContext);
+
+            var myevent = new Event();
+
+            myevent.Name = "BlockChain";
+            myevent.Description = "Ponencia especializada en BlockChain";
+            myevent.Place = "Auditori Cibernarium";
+            myevent.EventType = EventTypes.Masterclass;
+
+
+            repoEvent.Add(myevent);
+
+
+            var repoExercise = new ExerciseRepository(dbContext);
+
+            var exercise = new Exercise();
+
+            exercise.Name = "Variables";
+            exercise.ShortDescription = "Manejo Variables";
+            exercise.IsCommonBlock = false;
+            exercise.Itinerary = Itineraries.Net;
+            exercise.ResourceLevel = ResourceLevels.Basic;
+
+            repoExercise.Add(exercise);
+
+
+            var repoTeachingMaterial = new TeachingMaterialRepository(dbContext);
+
+            var teachingMaterial = new TeachingMaterial();
+
+            teachingMaterial.Name = "TeachMat";
+            teachingMaterial.ShortDescription = "How to...";
+            teachingMaterial.Description = "Learn Entity Framework";
+            teachingMaterial.IsCommonBlock = false;
+            teachingMaterial.Itinerary = Itineraries.Net;
+            teachingMaterial.ResourceLevel = ResourceLevels.Middle;
+            teachingMaterial.MaterialLink = "www.ajdfadfkjaldfjalfa";
+            teachingMaterial.MaterialType = MaterialTypes.document;
+
+            repoTeachingMaterial.Add(teachingMaterial);
+
+
+
+
         }
     }
 }

@@ -13,6 +13,8 @@ namespace ItAcademyProjecteNET.Lib.Models
 
         public DateTime DeliveryDate { get; set; }
 
+        [NotMapped]
+        public virtual ICollection<Student> Students { get; set; }
 
         // public double Mark { get; set; }
 

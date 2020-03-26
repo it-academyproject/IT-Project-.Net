@@ -17,6 +17,14 @@ namespace ItAcademyProjecteNET.Lib.Models
 
         public DateTime EndData { get; set; }
 
+        [NotMapped]
+        public virtual ICollection<Event> Events { get; set; }
+
+        [NotMapped]
+        public virtual ICollection<Exercise> Exercises { get; set; }
+
+
+
 
         [Column("Itinerary")]
         public string ItineraryString

@@ -7,12 +7,12 @@ namespace ItAcademyProjecteNET.Lib.Models
 {
     public class StudentExercise 
     {
-        public int Id { get; set; }
-        public Exercise Exercise { get; }
+        //public int Id { get; set; }
+        //public Exercise Exercise { get; }
 
-        public Student Student { get; }
+        //public Student Student { get; }
 
-        public Guid ExerciseId { get; set; }
-        public Guid StudentId { get; set; }
+        //public Guid ExerciseId { get; set; }
+        //public Guid StudentId { get; set; }
     }
 }
