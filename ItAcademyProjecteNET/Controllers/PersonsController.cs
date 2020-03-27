@@ -12,23 +12,23 @@ namespace ItAcademyProjecteNET.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class PersonController : ControllerBase
+    public class PersonsController : ControllerBase
     {
         private readonly ItAcademyDbContext _context;
 
-        public PersonController(ItAcademyDbContext context)
+        public PersonsController(ItAcademyDbContext context)
         {
             _context = context;
         }
 
-        // GET: api/Person
+        // GET: api/Persons
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Person>>> GetPersons()
         {
             return await _context.Persons.ToListAsync();
         }
 
-        // GET: api/Person/5
+        // GET: api/Persons/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Person>> GetPerson(int id)
         {
@@ -42,7 +42,7 @@ namespace ItAcademyProjecteNET.Controllers
             return person;
         }
 
-        // PUT: api/Person/5
+        // PUT: api/Persons/5
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for
         // more details see https://aka.ms/RazorPagesCRUD.
         [HttpPut("{id}")]
@@ -74,7 +74,7 @@ namespace ItAcademyProjecteNET.Controllers
             return NoContent();
         }
 
-        // POST: api/Person
+        // POST: api/Persons
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for
         // more details see https://aka.ms/RazorPagesCRUD.
         [HttpPost]
@@ -86,7 +86,7 @@ namespace ItAcademyProjecteNET.Controllers
             return CreatedAtAction("GetPerson", new { id = person.Id }, person);
         }
 
-        // DELETE: api/Person/5
+        // DELETE: api/Persons/5
         [HttpDelete("{id}")]
         public async Task<ActionResult<Person>> DeletePerson(int id)
         {
