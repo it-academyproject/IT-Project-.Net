@@ -12,11 +12,11 @@ namespace ItAcademyProjecteNET.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class StudentController : ControllerBase
+    public class StudentsController : ControllerBase
     {
         private readonly ItAcademyDbContext _context;
 
-        public StudentController(ItAcademyDbContext context)
+        public StudentsController(ItAcademyDbContext context)
         {
             _context = context;
         }

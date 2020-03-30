@@ -32,17 +32,20 @@ namespace ItAcademyProjecteNET
 
             var repoPerson = new PersonRepository(dbContext);
 
-            var person = new Person();
+            if (repoPerson.GetPersons().Count() == 0)
+            {
+                var person = new Person();
 
-            person.Name = "Lola";
-            person.LastName = "Lola";
-            person.Email = "123@lola.com";
-            person.PersonRole = PersonRoles.Admin;
-            person.PersonGender = PersonGenders.Female;
-            person.Picture = "picture";
-            person.Password = "12345";
+                person.Name = "Lola";
+                person.LastName = "Lola";
+                person.Email = "123@lola.com";
+                person.PersonRole = PersonRoles.Admin;
+                person.PersonGender = PersonGenders.Female;
+                person.Picture = "picture";
+                person.Password = "12345";
 
-            repoPerson.Add(person);
+                repoPerson.Add(person);
+            }
 
 
 

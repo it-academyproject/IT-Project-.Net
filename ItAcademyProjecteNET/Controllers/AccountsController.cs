@@ -4,6 +4,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
+using ItAcademyProjecteNET.Lib.DAL.Context;
 using ItAcademyProjecteNET.Lib.Models;
 using ItAcademyProjecteNET.Models;
 using Microsoft.AspNetCore.Http;
@@ -15,18 +16,25 @@ namespace ItAcademyProjecteNET.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class AccountController : ControllerBase
+    public class AccountsController : ControllerBase
     {
-        private UserManager<Person> _userManager;
-        public AccountController(UserManager<Person> userManager)
+        //private UserManager<Person> _userManager;
+        //public AccountController(UserManager<Person> userManager)
+        //{
+        //    _userManager = userManager;
+        //}
+
+        private readonly ItAcademyDbContext _userManager;
+
+        public AccountsController(ItAcademyDbContext context)
         {
-            _userManager = userManager;
+            _userManager = context;
         }
 
         [HttpPost]
         [Route("Register")]
-        //POST : /api/Account/Register
-        public async Task<Object> PostApplicationUser(Person person)
+        //POST : /api/Accounts/Register
+        public async Task<Object> PostAccount([FromForm] Person person)
         {
             var applicationUser = new Person()
             {
@@ -42,27 +50,30 @@ namespace ItAcademyProjecteNET.Controllers
 
             try
             {
-                var result = await _userManager.CreateAsync(applicationUser, person.Password);
-                await _userManager.AddToRoleAsync(applicationUser, person.PersonRoleString);
-                return Ok(result);
+                _userManager.Persons.Add(person);
+                await _userManager.SaveChangesAsync();
+
+                return CreatedAtAction("GetPerson", new { id = person.Id }, person);
+
+                //await _userManager.AddToRoleAsync(applicationUser, person.PersonRoleString);
+                //return Ok(result);
             }
             catch (Exception ex)
             {
-
                 throw ex;
             }
         }
 
         [HttpPost]
         [Route("Login")]
-        //POST : /api/Account/Login
-        public async Task<IActionResult> Login(LoginModel model)
+        //Get : /api/Accounts/Login
+        public async Task<IActionResult> Login([FromForm] LoginModel model)
         {
-            var user = await _userManager.FindByEmailAsync(model.Email);
-            if (user != null && await _userManager.CheckPasswordAsync(user, model.Password))
+            var user = _userManager.FindPersonByEmail(model.Email);
+            if (user != null && _userManager.CheckPassword(user, model.Password))
             {
                 //Get role assigned to the user
-                var role = await _userManager.GetRolesAsync(user);
+                //var role = await _userManager.GetRolesAsync(user);
 
                 var claims = new List<Claim>
                 {
@@ -74,7 +85,7 @@ namespace ItAcademyProjecteNET.Controllers
                     ClaimsIdentity.DefaultRoleClaimType);
 
                 var now = DateTime.UtcNow;
-                // создаем JWT-токен
+                // Creamos JWT-token
                 var jwt = new JwtSecurityToken(
                         issuer: AuthOptions.ISSUER,
                         audience: AuthOptions.AUDIENCE,

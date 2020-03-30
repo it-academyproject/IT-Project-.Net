@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "DuVGhPl48X/ToZu19xvgTak7XiyrkL32LcsfK2imS+d4FSPzW212jHlCsku+u+R5ZWg4GzOtLDrh9X4ua+xZQA==",
+  "dgSpecHash": "f3q5jMva5I/MP0zquCjogaDQtlFKqSREvxFyOniHYM0fRvaIvOTstFAwfmfW/51CArDTUHvLlMXHVmOYAYwLxg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Eugene\\Project_IT_Academy\\IT-Project-.Net\\ItAcademyProjecteNET.Lib.DAL\\ItAcademyProjecteNET.Lib.DAL.csproj",
   "expectedPackageFiles": [
@@ -21,6 +21,7 @@
     "C:\\Users\\Eugene\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.2\\microsoft.extensions.logging.abstractions.3.1.2.nupkg.sha512",
     "C:\\Users\\Eugene\\.nuget\\packages\\microsoft.extensions.options\\3.1.2\\microsoft.extensions.options.3.1.2.nupkg.sha512",
     "C:\\Users\\Eugene\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.2\\microsoft.extensions.primitives.3.1.2.nupkg.sha512",
+    "C:\\Users\\Eugene\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.5.0\\microsoft.identitymodel.jsonwebtokens.6.5.0.nupkg.sha512",
     "C:\\Users\\Eugene\\.nuget\\packages\\microsoft.identitymodel.logging\\6.5.0\\microsoft.identitymodel.logging.6.5.0.nupkg.sha512",
     "C:\\Users\\Eugene\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.5.0\\microsoft.identitymodel.tokens.6.5.0.nupkg.sha512",
     "C:\\Users\\Eugene\\.nuget\\packages\\system.collections.immutable\\1.7.0\\system.collections.immutable.1.7.0.nupkg.sha512",
