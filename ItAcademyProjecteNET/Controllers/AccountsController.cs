@@ -18,12 +18,6 @@ namespace ItAcademyProjecteNET.Controllers
     [ApiController]
     public class AccountsController : ControllerBase
     {
-        //private UserManager<Person> _userManager;
-        //public AccountController(UserManager<Person> userManager)
-        //{
-        //    _userManager = userManager;
-        //}
-
         private readonly ItAcademyDbContext _userManager;
 
         public AccountsController(ItAcademyDbContext context)
@@ -39,8 +33,7 @@ namespace ItAcademyProjecteNET.Controllers
             var applicationUser = new Person()
             {
                 Name = person.Name,
-                LastName = person.LastName,
-                //CompleteName = person.CompleteName,
+                LastName = person.LastName,               
                 Email = person.Email,
                 Picture = person.Picture,
                 BirthDate = person.BirthDate,
@@ -54,9 +47,9 @@ namespace ItAcademyProjecteNET.Controllers
                 await _userManager.SaveChangesAsync();
 
                 return CreatedAtAction("GetPerson", new { id = person.Id }, person);
+                //or
+                //return Ok(CreatedAtAction("GetPerson", new { id = person.Id }, person));
 
-                //await _userManager.AddToRoleAsync(applicationUser, person.PersonRoleString);
-                //return Ok(result);
             }
             catch (Exception ex)
             {
@@ -72,9 +65,6 @@ namespace ItAcademyProjecteNET.Controllers
             var user = _userManager.FindPersonByEmail(model.Email);
             if (user != null && _userManager.CheckPassword(user, model.Password))
             {
-                //Get role assigned to the user
-                //var role = await _userManager.GetRolesAsync(user);
-
                 var claims = new List<Claim>
                 {
                     new Claim(ClaimsIdentity.DefaultNameClaimType, user.Email),
@@ -94,21 +84,7 @@ namespace ItAcademyProjecteNET.Controllers
                         expires: now.Add(TimeSpan.FromMinutes(AuthOptions.LIFETIME)),
                         signingCredentials: new SigningCredentials(AuthOptions.GetSymmetricSecurityKey(), SecurityAlgorithms.HmacSha256));
                 var token = new JwtSecurityTokenHandler().WriteToken(jwt);
-                //IdentityOptions _options = new IdentityOptions();
-
-                //var tokenDescriptor = new SecurityTokenDescriptor
-                //{
-                //    Subject = new ClaimsIdentity(new Claim[]
-                //    {
-                //        new Claim("UserID",user.Id.ToString()),
-                //        new Claim(_options.ClaimsIdentity.RoleClaimType,role.FirstOrDefault())
-                //    }),
-                //    Expires = DateTime.UtcNow.AddDays(1),
-                //    SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_appSettings.JWT_Secret)), SecurityAlgorithms.HmacSha256Signature)
-                //};
-                //var tokenHandler = new JwtSecurityTokenHandler();
-                //var securityToken = tokenHandler.CreateToken(tokenDescriptor);
-                //var token = tokenHandler.WriteToken(securityToken);
+                
                 return Ok(new { token });
             }
             else
