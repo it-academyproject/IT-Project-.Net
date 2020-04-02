@@ -6,6 +6,7 @@ using System.Security.Claims;
 using System.Threading.Tasks;
 using ItAcademyProjecteNET.Lib.DAL.Context;
 using ItAcademyProjecteNET.Lib.Models;
+using ItAcademyProjecteNET.Lib.Models.Enums;
 using ItAcademyProjecteNET.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
@@ -70,6 +71,10 @@ namespace ItAcademyProjecteNET.Controllers
                     new Claim(ClaimsIdentity.DefaultNameClaimType, user.Email),
                     new Claim(ClaimsIdentity.DefaultRoleClaimType, user.PersonRoleString)
                 };
+
+                //claims.Add(new Claim(ClaimTypes.Role, "Admin"));
+                //claims.Add(new Claim(ClaimTypes.Role, "User"));
+
                 ClaimsIdentity claimsIdentity =
                 new ClaimsIdentity(claims, "Token", ClaimsIdentity.DefaultNameClaimType,
                     ClaimsIdentity.DefaultRoleClaimType);
@@ -78,7 +83,7 @@ namespace ItAcademyProjecteNET.Controllers
                 // Creamos JWT-token
                 var jwt = new JwtSecurityToken(
                         issuer: AuthOptions.ISSUER,
-                        audience: AuthOptions.AUDIENCE,
+                        //audience: AuthOptions.AUDIENCE,
                         notBefore: now,
                         claims: claimsIdentity.Claims,
                         expires: now.Add(TimeSpan.FromMinutes(AuthOptions.LIFETIME)),

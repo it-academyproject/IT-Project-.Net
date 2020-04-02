@@ -19,6 +19,11 @@ namespace ItAcademyProjecteNET.Lib.DAL.Context
         public DbSet<Event> Events { get; set; }
         public DbSet<Exercise> Exercises { get; set; }
         public DbSet<TeachingMaterial> TeachingMaterials { get; set; }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Person>()
+                .HasAlternateKey(p => p.Email);                
+        }
         public Person FindPersonByEmail(string email)
         {
             return Persons.AsQueryable().Where(x => x.Email == email).FirstOrDefault();

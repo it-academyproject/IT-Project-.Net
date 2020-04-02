@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ItAcademyProjecteNET.Lib.DAL.Context;
 using ItAcademyProjecteNET.Lib.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ItAcademyProjecteNET.Controllers
 {
@@ -21,8 +22,8 @@ namespace ItAcademyProjecteNET.Controllers
             _context = context;
         }
 
-        // GET: api/Persons
-        [HttpGet]
+        // GET: api/Persons        
+        [HttpGet]        
         public async Task<ActionResult<IEnumerable<Person>>> GetPersons()
         {
             return await _context.Persons.ToListAsync();

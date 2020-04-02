@@ -39,3 +39,4 @@ C:\Users\Eugene\Project_IT_Academy\IT-Project-.Net\ItAcademyProjecteNET.Lib\obj\
 C:\Users\Eugene\Project_IT_Academy\IT-Project-.Net\ItAcademyProjecteNET.Lib\obj\Debug\netcoreapp3.1\ItAcademyProjecteNET.Lib.dll
 C:\Users\Eugene\Project_IT_Academy\IT-Project-.Net\ItAcademyProjecteNET.Lib\obj\Debug\netcoreapp3.1\ItAcademyProjecteNET.Lib.pdb
 C:\Users\Eugene\Project_IT_Academy\IT-Project-.Net\ItAcademyProjecteNET.Lib\obj\Debug\netcoreapp3.1\ItAcademyProjecteNET.Lib.csproj.CoreCompileInputs.cache
+C:\Users\Eugene\Project_IT_Academy\IT-Project-.Net\ItAcademyProjecteNET.Lib\obj\Debug\netcoreapp3.1\ItAcademyProjecteNET.Lib.csprojAssemblyReference.cache

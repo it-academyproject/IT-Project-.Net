@@ -7,6 +7,9 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ItAcademyProjecteNET.Lib.DAL.Context;
 using ItAcademyProjecteNET.Lib.Models;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc.Authorization;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 
 namespace ItAcademyProjecteNET.Controllers
 {
@@ -15,7 +18,6 @@ namespace ItAcademyProjecteNET.Controllers
     public class StudentsController : ControllerBase
     {
         private readonly ItAcademyDbContext _context;
-
         public StudentsController(ItAcademyDbContext context)
         {
             _context = context;
@@ -23,13 +25,17 @@ namespace ItAcademyProjecteNET.Controllers
 
         // GET: api/Students
         [HttpGet]
+        //[Authorize(Roles = "Admin,User")]
+        //[Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]   
+        //[Authorize(Policy = "Policy")]
+        [Authorize]
         public async Task<ActionResult<IEnumerable<Student>>> GetStudent()
         {
             return await _context.Students.ToListAsync();
         }
 
         // GET: api/Students/5
-        [HttpGet("{id}")]
+        [HttpGet("{id}")]        
         public async Task<ActionResult<Student>> GetStudent(int id)
         {
             var student = await _context.Students.FindAsync(id);
@@ -45,6 +51,7 @@ namespace ItAcademyProjecteNET.Controllers
         // PUT: api/Students/5
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for
         // more details see https://aka.ms/RazorPagesCRUD.
+        
         [HttpPut("{id}")]
         public async Task<IActionResult> PutStudent(int id, Student student)
         {
