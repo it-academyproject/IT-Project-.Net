@@ -7,9 +7,8 @@ using System.Threading.Tasks;
 
 namespace ItAcademyProjecteNET.Lib.Models
 {
-    public class Resource
+    public class Resource : Entity
     {
-        public int Id { get; set; }
         public string Name { get; set; }
         public string ShortDescription { get; set; }
         public string Description { get; set; }
