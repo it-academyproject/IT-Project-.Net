@@ -1,4 +1,5 @@
-﻿using ItAcademyProjecteNET.Lib.Models.Enums;
+﻿using Common.Lib.Core;
+using ItAcademyProjecteNET.Lib.Models.Enums;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;

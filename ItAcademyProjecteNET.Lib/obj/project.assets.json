@@ -60,6 +60,16 @@
             "rid": "win"
           }
         }
+      },
+      "Common.Lib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Common.Lib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Common.Lib.dll": {}
+        }
       }
     }
   },
@@ -245,27 +255,33 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Common.Lib/1.0.0": {
+      "type": "project",
+      "path": "../Core/Common.Lib/Common.Lib.csproj",
+      "msbuildProject": "../Core/Common.Lib/Common.Lib.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Common.Lib >= 1.0.0",
       "Microsoft.IdentityModel.JsonWebTokens >= 6.5.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Eugene\\.nuget\\packages\\": {}
+    "C:\\Users\\pccom\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Eugene\\Project_IT_Academy\\IT-Project-.Net\\ItAcademyProjecteNET.Lib\\ItAcademyProjecteNET.Lib.csproj",
+      "projectUniqueName": "Y:\\Dropbox\\Disco_duro\\_PROYECTOS_PERSONALES\\_PROY_2019\\14_BA-DEVELOPER\\07_ITPROJECT\\IT-Project-.Net\\ItAcademyProjecteNET.Lib\\ItAcademyProjecteNET.Lib.csproj",
       "projectName": "ItAcademyProjecteNET.Lib",
-      "projectPath": "C:\\Users\\Eugene\\Project_IT_Academy\\IT-Project-.Net\\ItAcademyProjecteNET.Lib\\ItAcademyProjecteNET.Lib.csproj",
-      "packagesPath": "C:\\Users\\Eugene\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Eugene\\Project_IT_Academy\\IT-Project-.Net\\ItAcademyProjecteNET.Lib\\obj\\",
+      "projectPath": "Y:\\Dropbox\\Disco_duro\\_PROYECTOS_PERSONALES\\_PROY_2019\\14_BA-DEVELOPER\\07_ITPROJECT\\IT-Project-.Net\\ItAcademyProjecteNET.Lib\\ItAcademyProjecteNET.Lib.csproj",
+      "packagesPath": "C:\\Users\\pccom\\.nuget\\packages\\",
+      "outputPath": "Y:\\Dropbox\\Disco_duro\\_PROYECTOS_PERSONALES\\_PROY_2019\\14_BA-DEVELOPER\\07_ITPROJECT\\IT-Project-.Net\\ItAcademyProjecteNET.Lib\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Eugene\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\pccom\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -277,7 +293,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "Y:\\Dropbox\\Disco_duro\\_PROYECTOS_PERSONALES\\_PROY_2019\\14_BA-DEVELOPER\\07_ITPROJECT\\IT-Project-.Net\\Core\\Common.Lib\\Common.Lib.csproj": {
+              "projectPath": "Y:\\Dropbox\\Disco_duro\\_PROYECTOS_PERSONALES\\_PROY_2019\\14_BA-DEVELOPER\\07_ITPROJECT\\IT-Project-.Net\\Core\\Common.Lib\\Common.Lib.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

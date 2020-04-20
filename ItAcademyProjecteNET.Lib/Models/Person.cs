@@ -1,14 +1,16 @@
 ﻿using CoItAcademyProjecteNET.LibdeFirst.Models.Enums;
+using Common.Lib.Core;
 using ItAcademyProjecteNET.Lib.Models.Enums;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
 namespace ItAcademyProjecteNET.Lib.Models
 {
-    public class Person : Entity
+    public abstract class Person : Entity
     {
         public string Name { get; set; }
         public string LastName { get; set; }
@@ -20,6 +22,7 @@ namespace ItAcademyProjecteNET.Lib.Models
             }
         }
         public int Age { get; set; }
+        public string Dni { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
         public string Picture { get; set; }

@@ -19,12 +19,27 @@ namespace ItAcademyProjecteNET.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("ItAcademyProjecteNET.Lib.Models.Event", b =>
+            modelBuilder.Entity("Common.Lib.Core.Entity", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Discriminator")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Entity");
+
+                    b.HasDiscriminator<string>("Discriminator").HasValue("Entity");
+                });
+
+            modelBuilder.Entity("ItAcademyProjecteNET.Lib.Models.Event", b =>
+                {
+                    b.HasBaseType("Common.Lib.Core.Entity");
 
                     b.Property<DateTime>("Date")
                         .HasColumnType("datetime2");
@@ -42,17 +57,12 @@ namespace ItAcademyProjecteNET.Migrations
                     b.Property<string>("Place")
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("Id");
-
-                    b.ToTable("Events");
+                    b.HasDiscriminator().HasValue("Event");
                 });
 
             modelBuilder.Entity("ItAcademyProjecteNET.Lib.Models.Exercise", b =>
                 {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                    b.HasBaseType("Common.Lib.Core.Entity");
 
                     b.Property<string>("AvalableTime")
                         .HasColumnType("nvarchar(max)");
@@ -61,6 +71,7 @@ namespace ItAcademyProjecteNET.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Description")
+                        .HasColumnName("Exercise_Description")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ExerciseStatusString")
@@ -75,6 +86,7 @@ namespace ItAcademyProjecteNET.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
+                        .HasColumnName("Exercise_Name")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ResourceLevelString")
@@ -84,17 +96,12 @@ namespace ItAcademyProjecteNET.Migrations
                     b.Property<string>("ShortDescription")
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("Id");
-
-                    b.ToTable("Exercises");
+                    b.HasDiscriminator().HasValue("Exercise");
                 });
 
             modelBuilder.Entity("ItAcademyProjecteNET.Lib.Models.Person", b =>
                 {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                    b.HasBaseType("Common.Lib.Core.Entity");
 
                     b.Property<int>("Age")
                         .HasColumnType("int");
@@ -102,8 +109,7 @@ namespace ItAcademyProjecteNET.Migrations
                     b.Property<DateTime>("BirthDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("Discriminator")
-                        .IsRequired()
+                    b.Property<string>("Dni")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Email")
@@ -113,6 +119,7 @@ namespace ItAcademyProjecteNET.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
+                        .HasColumnName("Person_Name")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Password")
@@ -129,21 +136,15 @@ namespace ItAcademyProjecteNET.Migrations
                     b.Property<string>("Picture")
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("Id");
-
-                    b.ToTable("Persons");
-
-                    b.HasDiscriminator<string>("Discriminator").HasValue("Person");
+                    b.HasDiscriminator().HasValue("Person");
                 });
 
             modelBuilder.Entity("ItAcademyProjecteNET.Lib.Models.TeachingMaterial", b =>
                 {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                    b.HasBaseType("Common.Lib.Core.Entity");
 
                     b.Property<string>("Description")
+                        .HasColumnName("TeachingMaterial_Description")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("IsCommonBlock")
@@ -164,6 +165,7 @@ namespace ItAcademyProjecteNET.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
+                        .HasColumnName("TeachingMaterial_Name")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ResourceLevelString")
@@ -173,9 +175,7 @@ namespace ItAcademyProjecteNET.Migrations
                     b.Property<string>("ShortDescription")
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("Id");
-
-                    b.ToTable("TeachingMaterials");
+                    b.HasDiscriminator().HasValue("TeachingMaterial");
                 });
 
             modelBuilder.Entity("ItAcademyProjecteNET.Lib.Models.Student", b =>
