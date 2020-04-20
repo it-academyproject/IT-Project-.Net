@@ -1,0 +1,47 @@
+D:\IT_Academy\C#\ExamDecember2019\WPFAcademy\0 Core\Common.Lib.DAL.EFCore\bin\Debug\netcoreapp3.1\Common.Lib.DAL.EFCore.deps.json
+D:\IT_Academy\C#\ExamDecember2019\WPFAcademy\0 Core\Common.Lib.DAL.EFCore\bin\Debug\netcoreapp3.1\Common.Lib.DAL.EFCore.dll
+D:\IT_Academy\C#\ExamDecember2019\WPFAcademy\0 Core\Common.Lib.DAL.EFCore\bin\Debug\netcoreapp3.1\Common.Lib.DAL.EFCore.pdb
+D:\IT_Academy\C#\ExamDecember2019\WPFAcademy\0 Core\Common.Lib.DAL.EFCore\bin\Debug\netcoreapp3.1\Common.Lib.dll
+D:\IT_Academy\C#\ExamDecember2019\WPFAcademy\0 Core\Common.Lib.DAL.EFCore\bin\Debug\netcoreapp3.1\Common.Lib.pdb
+D:\IT_Academy\C#\ExamDecember2019\WPFAcademy\0 Core\Common.Lib.DAL.EFCore\obj\Debug\netcoreapp3.1\Common.Lib.DAL.EFCore.csprojAssemblyReference.cache
+D:\IT_Academy\C#\ExamDecember2019\WPFAcademy\0 Core\Common.Lib.DAL.EFCore\obj\Debug\netcoreapp3.1\Common.Lib.DAL.EFCore.AssemblyInfoInputs.cache
+D:\IT_Academy\C#\ExamDecember2019\WPFAcademy\0 Core\Common.Lib.DAL.EFCore\obj\Debug\netcoreapp3.1\Common.Lib.DAL.EFCore.AssemblyInfo.cs
+D:\IT_Academy\C#\ExamDecember2019\WPFAcademy\0 Core\Common.Lib.DAL.EFCore\obj\Debug\netcoreapp3.1\Common.Lib.DAL.EFCore.csproj.CopyComplete
+D:\IT_Academy\C#\ExamDecember2019\WPFAcademy\0 Core\Common.Lib.DAL.EFCore\obj\Debug\netcoreapp3.1\Common.Lib.DAL.EFCore.dll
+D:\IT_Academy\C#\ExamDecember2019\WPFAcademy\0 Core\Common.Lib.DAL.EFCore\obj\Debug\netcoreapp3.1\Common.Lib.DAL.EFCore.pdb
+D:\IT_Academy\C#\ProjectITAcademy\6a iteración\Rama7\IT-Project-.Net-N-7\Core\Common.Lib.DAL.EFCore\bin\Debug\netcoreapp3.1\Common.Lib.DAL.EFCore.deps.json
+D:\IT_Academy\C#\ProjectITAcademy\6a iteración\Rama7\IT-Project-.Net-N-7\Core\Common.Lib.DAL.EFCore\bin\Debug\netcoreapp3.1\Common.Lib.DAL.EFCore.dll
+D:\IT_Academy\C#\ProjectITAcademy\6a iteración\Rama7\IT-Project-.Net-N-7\Core\Common.Lib.DAL.EFCore\bin\Debug\netcoreapp3.1\Common.Lib.DAL.EFCore.pdb
+D:\IT_Academy\C#\ProjectITAcademy\6a iteración\Rama7\IT-Project-.Net-N-7\Core\Common.Lib.DAL.EFCore\bin\Debug\netcoreapp3.1\Common.Lib.dll
+D:\IT_Academy\C#\ProjectITAcademy\6a iteración\Rama7\IT-Project-.Net-N-7\Core\Common.Lib.DAL.EFCore\bin\Debug\netcoreapp3.1\Common.Lib.pdb
+D:\IT_Academy\C#\ProjectITAcademy\6a iteración\Rama7\IT-Project-.Net-N-7\Core\Common.Lib.DAL.EFCore\obj\Debug\netcoreapp3.1\Common.Lib.DAL.EFCore.csprojAssemblyReference.cache
+D:\IT_Academy\C#\ProjectITAcademy\6a iteración\Rama7\IT-Project-.Net-N-7\Core\Common.Lib.DAL.EFCore\obj\Debug\netcoreapp3.1\Common.Lib.DAL.EFCore.csproj.CoreCompileInputs.cache
+D:\IT_Academy\C#\ProjectITAcademy\6a iteración\Rama7\IT-Project-.Net-N-7\Core\Common.Lib.DAL.EFCore\obj\Debug\netcoreapp3.1\Common.Lib.DAL.EFCore.AssemblyInfoInputs.cache
+D:\IT_Academy\C#\ProjectITAcademy\6a iteración\Rama7\IT-Project-.Net-N-7\Core\Common.Lib.DAL.EFCore\obj\Debug\netcoreapp3.1\Common.Lib.DAL.EFCore.AssemblyInfo.cs
+D:\IT_Academy\C#\ProjectITAcademy\6a iteración\Rama7\IT-Project-.Net-N-7\Core\Common.Lib.DAL.EFCore\obj\Debug\netcoreapp3.1\Common.Lib.DAL.EFCore.csproj.CopyComplete
+D:\IT_Academy\C#\ProjectITAcademy\6a iteración\Rama7\IT-Project-.Net-N-7\Core\Common.Lib.DAL.EFCore\obj\Debug\netcoreapp3.1\Common.Lib.DAL.EFCore.dll
+D:\IT_Academy\C#\ProjectITAcademy\6a iteración\Rama7\IT-Project-.Net-N-7\Core\Common.Lib.DAL.EFCore\obj\Debug\netcoreapp3.1\Common.Lib.DAL.EFCore.pdb
+D:\IT_Academy\C#\ProjectITAcademy\6a iteración\Rama7\IT-Project-.Net-N-7 - copia\Core\Common.Lib.DAL.EFCore\bin\Debug\netcoreapp3.1\Common.Lib.DAL.EFCore.deps.json
+D:\IT_Academy\C#\ProjectITAcademy\6a iteración\Rama7\IT-Project-.Net-N-7 - copia\Core\Common.Lib.DAL.EFCore\bin\Debug\netcoreapp3.1\Common.Lib.DAL.EFCore.dll
+D:\IT_Academy\C#\ProjectITAcademy\6a iteración\Rama7\IT-Project-.Net-N-7 - copia\Core\Common.Lib.DAL.EFCore\bin\Debug\netcoreapp3.1\Common.Lib.DAL.EFCore.pdb
+D:\IT_Academy\C#\ProjectITAcademy\6a iteración\Rama7\IT-Project-.Net-N-7 - copia\Core\Common.Lib.DAL.EFCore\bin\Debug\netcoreapp3.1\Common.Lib.dll
+D:\IT_Academy\C#\ProjectITAcademy\6a iteración\Rama7\IT-Project-.Net-N-7 - copia\Core\Common.Lib.DAL.EFCore\bin\Debug\netcoreapp3.1\Common.Lib.pdb
+D:\IT_Academy\C#\ProjectITAcademy\6a iteración\Rama7\IT-Project-.Net-N-7 - copia\Core\Common.Lib.DAL.EFCore\obj\Debug\netcoreapp3.1\Common.Lib.DAL.EFCore.csprojAssemblyReference.cache
+D:\IT_Academy\C#\ProjectITAcademy\6a iteración\Rama7\IT-Project-.Net-N-7 - copia\Core\Common.Lib.DAL.EFCore\obj\Debug\netcoreapp3.1\Common.Lib.DAL.EFCore.csproj.CoreCompileInputs.cache
+D:\IT_Academy\C#\ProjectITAcademy\6a iteración\Rama7\IT-Project-.Net-N-7 - copia\Core\Common.Lib.DAL.EFCore\obj\Debug\netcoreapp3.1\Common.Lib.DAL.EFCore.AssemblyInfoInputs.cache
+D:\IT_Academy\C#\ProjectITAcademy\6a iteración\Rama7\IT-Project-.Net-N-7 - copia\Core\Common.Lib.DAL.EFCore\obj\Debug\netcoreapp3.1\Common.Lib.DAL.EFCore.AssemblyInfo.cs
+D:\IT_Academy\C#\ProjectITAcademy\6a iteración\Rama7\IT-Project-.Net-N-7 - copia\Core\Common.Lib.DAL.EFCore\obj\Debug\netcoreapp3.1\Common.Lib.DAL.EFCore.csproj.CopyComplete
+D:\IT_Academy\C#\ProjectITAcademy\6a iteración\Rama7\IT-Project-.Net-N-7 - copia\Core\Common.Lib.DAL.EFCore\obj\Debug\netcoreapp3.1\Common.Lib.DAL.EFCore.dll
+D:\IT_Academy\C#\ProjectITAcademy\6a iteración\Rama7\IT-Project-.Net-N-7 - copia\Core\Common.Lib.DAL.EFCore\obj\Debug\netcoreapp3.1\Common.Lib.DAL.EFCore.pdb
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\07_ITPROJECT\IT-Project-.Net\Core\Common.Lib.DAL.EFCore\obj\Debug\netcoreapp3.1\Common.Lib.DAL.EFCore.csproj.CoreCompileInputs.cache
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\07_ITPROJECT\IT-Project-.Net\Core\Common.Lib.DAL.EFCore\obj\Debug\netcoreapp3.1\Common.Lib.DAL.EFCore.AssemblyInfoInputs.cache
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\07_ITPROJECT\IT-Project-.Net\Core\Common.Lib.DAL.EFCore\obj\Debug\netcoreapp3.1\Common.Lib.DAL.EFCore.AssemblyInfo.cs
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\07_ITPROJECT\IT-Project-.Net\Core\Common.Lib.DAL.EFCore\bin\Debug\netcoreapp3.1\Common.Lib.DAL.EFCore.deps.json
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\07_ITPROJECT\IT-Project-.Net\Core\Common.Lib.DAL.EFCore\bin\Debug\netcoreapp3.1\Common.Lib.DAL.EFCore.dll
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\07_ITPROJECT\IT-Project-.Net\Core\Common.Lib.DAL.EFCore\bin\Debug\netcoreapp3.1\Common.Lib.DAL.EFCore.pdb
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\07_ITPROJECT\IT-Project-.Net\Core\Common.Lib.DAL.EFCore\bin\Debug\netcoreapp3.1\Common.Lib.dll
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\07_ITPROJECT\IT-Project-.Net\Core\Common.Lib.DAL.EFCore\bin\Debug\netcoreapp3.1\Common.Lib.pdb
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\07_ITPROJECT\IT-Project-.Net\Core\Common.Lib.DAL.EFCore\obj\Debug\netcoreapp3.1\Common.Lib.DAL.EFCore.csprojAssemblyReference.cache
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\07_ITPROJECT\IT-Project-.Net\Core\Common.Lib.DAL.EFCore\obj\Debug\netcoreapp3.1\Common.Lib.DAL.EFCore.csproj.CopyComplete
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\07_ITPROJECT\IT-Project-.Net\Core\Common.Lib.DAL.EFCore\obj\Debug\netcoreapp3.1\Common.Lib.DAL.EFCore.dll
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\07_ITPROJECT\IT-Project-.Net\Core\Common.Lib.DAL.EFCore\obj\Debug\netcoreapp3.1\Common.Lib.DAL.EFCore.pdb

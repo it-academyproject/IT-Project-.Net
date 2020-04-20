@@ -9,6 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Core\Common.Lib.DAL.EFCore\Common.Lib.DAL.EFCore.csproj" />
     <ProjectReference Include="..\ItAcademyProjecteNET.Lib\ItAcademyProjecteNET.Lib.csproj" />
   </ItemGroup>
 
