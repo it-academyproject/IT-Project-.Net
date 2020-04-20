@@ -359,6 +359,7 @@
           }
         }
       },
+
       "Microsoft.EntityFrameworkCore/3.1.2": {
         "type": "package",
         "dependencies": {
@@ -426,6 +427,7 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll": {}
         }
       },
+
       "Microsoft.EntityFrameworkCore.SqlServer/3.1.2": {
         "type": "package",
         "dependencies": {
@@ -535,6 +537,7 @@
           "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
         }
       },
+
       "Microsoft.Extensions.Logging/3.1.2": {
         "type": "package",
         "dependencies": {
@@ -1096,6 +1099,7 @@
           }
         }
       },
+
       "System.AppContext/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -2433,6 +2437,7 @@
           "lib/netstandard2.0/System.Text.Encodings.Web.dll": {}
         }
       },
+
       "System.Text.RegularExpressions/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -3069,6 +3074,7 @@
         "runtimes/win/lib/netstandard2.0/Microsoft.Data.SqlClient.pdb"
       ]
     },
+
     "Microsoft.EntityFrameworkCore/3.1.2": {
       "sha512": "VMpXQUCwVPXjDmX913ZcP6CF2XSUsCbf0C3FtVt6sNPsLlVB/ogiSQRx49UUbwZUoIkRuvsJsg7H8ugtUjQG6g==",
       "type": "package",
@@ -3141,6 +3147,7 @@
         "microsoft.entityframeworkcore.relational.nuspec"
       ]
     },
+
     "Microsoft.EntityFrameworkCore.SqlServer/3.1.2": {
       "sha512": "+bCJKMZ8Xxl5kNFZrcgWzB4O5za3Ku+colHil4ssl2lkMxkSDuIWyImDkmR+sLJC6l3MExaXAWEj7JqaXRQC+A==",
       "type": "package",
@@ -3293,6 +3300,7 @@
         "microsoft.extensions.dependencyinjection.abstractions.nuspec"
       ]
     },
+
     "Microsoft.Extensions.Logging/3.1.2": {
       "sha512": "AIIRgKamzEqJNLZsHd37VogFX9YpxgrBmf/b3dznD7S0qjxWQnAs498ulLV1n6AKJ8XVjTCBNzsvQiSwCa7dIw==",
       "type": "package",
@@ -4353,6 +4361,7 @@
         "version.txt"
       ]
     },
+
     "System.AppContext/4.3.0": {
       "sha512": "fKC+rmaLfeIzUhagxY17Q9siv/sPrjjKcfNg1Ic8IlQkZLipo8ljcaZQu4VtI4Jqbzjc2VTjzGLF6WmsRXAEgA==",
       "type": "package",
@@ -7952,6 +7961,7 @@
         "version.txt"
       ]
     },
+
     "System.Text.RegularExpressions/4.3.0": {
       "sha512": "RpT2DA+L660cBt1FssIE9CAGpLFdFPuheB7pLpKpn6ZXNby7jDERe8Ua/Ne2xGiwLVG2JOqziiaVCGDon5sKFA==",
       "type": "package",
@@ -8545,6 +8555,7 @@
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 3.1.3",
       "Microsoft.EntityFrameworkCore >= 3.1.2",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.2",
+
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.2",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.1"
     ]
@@ -8604,6 +8615,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[3.1.2, )"
+
           },
           "Microsoft.EntityFrameworkCore.Tools": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
