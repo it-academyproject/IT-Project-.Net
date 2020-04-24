@@ -1,0 +1,436 @@
+{
+  "format": 1,
+  "restore": {
+    "Y:\\Dropbox\\Disco_duro\\_PROYECTOS_PERSONALES\\_PROY_2019\\14_BA-DEVELOPER\\07_ITPROJECT\\IT-Project-.Net\\ItAcademyProjecteNET.IntegrationTests\\ItAcademyProjecteNET.IntegrationTests.csproj": {}
+  },
+  "projects": {
+    "Y:\\Dropbox\\Disco_duro\\_PROYECTOS_PERSONALES\\_PROY_2019\\14_BA-DEVELOPER\\07_ITPROJECT\\IT-Project-.Net\\Core\\Common.Lib.DAL.EFCore\\Common.Lib.DAL.EFCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Y:\\Dropbox\\Disco_duro\\_PROYECTOS_PERSONALES\\_PROY_2019\\14_BA-DEVELOPER\\07_ITPROJECT\\IT-Project-.Net\\Core\\Common.Lib.DAL.EFCore\\Common.Lib.DAL.EFCore.csproj",
+        "projectName": "Common.Lib.DAL.EFCore",
+        "projectPath": "Y:\\Dropbox\\Disco_duro\\_PROYECTOS_PERSONALES\\_PROY_2019\\14_BA-DEVELOPER\\07_ITPROJECT\\IT-Project-.Net\\Core\\Common.Lib.DAL.EFCore\\Common.Lib.DAL.EFCore.csproj",
+        "packagesPath": "C:\\Users\\pccom\\.nuget\\packages\\",
+        "outputPath": "Y:\\Dropbox\\Disco_duro\\_PROYECTOS_PERSONALES\\_PROY_2019\\14_BA-DEVELOPER\\07_ITPROJECT\\IT-Project-.Net\\Core\\Common.Lib.DAL.EFCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pccom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "Y:\\Dropbox\\Disco_duro\\_PROYECTOS_PERSONALES\\_PROY_2019\\14_BA-DEVELOPER\\07_ITPROJECT\\IT-Project-.Net\\Core\\Common.Lib\\Common.Lib.csproj": {
+                "projectPath": "Y:\\Dropbox\\Disco_duro\\_PROYECTOS_PERSONALES\\_PROY_2019\\14_BA-DEVELOPER\\07_ITPROJECT\\IT-Project-.Net\\Core\\Common.Lib\\Common.Lib.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Y:\\Dropbox\\Disco_duro\\_PROYECTOS_PERSONALES\\_PROY_2019\\14_BA-DEVELOPER\\07_ITPROJECT\\IT-Project-.Net\\Core\\Common.Lib\\Common.Lib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Y:\\Dropbox\\Disco_duro\\_PROYECTOS_PERSONALES\\_PROY_2019\\14_BA-DEVELOPER\\07_ITPROJECT\\IT-Project-.Net\\Core\\Common.Lib\\Common.Lib.csproj",
+        "projectName": "Common.Lib",
+        "projectPath": "Y:\\Dropbox\\Disco_duro\\_PROYECTOS_PERSONALES\\_PROY_2019\\14_BA-DEVELOPER\\07_ITPROJECT\\IT-Project-.Net\\Core\\Common.Lib\\Common.Lib.csproj",
+        "packagesPath": "C:\\Users\\pccom\\.nuget\\packages\\",
+        "outputPath": "Y:\\Dropbox\\Disco_duro\\_PROYECTOS_PERSONALES\\_PROY_2019\\14_BA-DEVELOPER\\07_ITPROJECT\\IT-Project-.Net\\Core\\Common.Lib\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pccom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Y:\\Dropbox\\Disco_duro\\_PROYECTOS_PERSONALES\\_PROY_2019\\14_BA-DEVELOPER\\07_ITPROJECT\\IT-Project-.Net\\ItAcademyProjecteNET.IntegrationTests\\ItAcademyProjecteNET.IntegrationTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Y:\\Dropbox\\Disco_duro\\_PROYECTOS_PERSONALES\\_PROY_2019\\14_BA-DEVELOPER\\07_ITPROJECT\\IT-Project-.Net\\ItAcademyProjecteNET.IntegrationTests\\ItAcademyProjecteNET.IntegrationTests.csproj",
+        "projectName": "ItAcademyProjecteNET.IntegrationTests",
+        "projectPath": "Y:\\Dropbox\\Disco_duro\\_PROYECTOS_PERSONALES\\_PROY_2019\\14_BA-DEVELOPER\\07_ITPROJECT\\IT-Project-.Net\\ItAcademyProjecteNET.IntegrationTests\\ItAcademyProjecteNET.IntegrationTests.csproj",
+        "packagesPath": "C:\\Users\\pccom\\.nuget\\packages\\",
+        "outputPath": "Y:\\Dropbox\\Disco_duro\\_PROYECTOS_PERSONALES\\_PROY_2019\\14_BA-DEVELOPER\\07_ITPROJECT\\IT-Project-.Net\\ItAcademyProjecteNET.IntegrationTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pccom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "Y:\\Dropbox\\Disco_duro\\_PROYECTOS_PERSONALES\\_PROY_2019\\14_BA-DEVELOPER\\07_ITPROJECT\\IT-Project-.Net\\Core\\Common.Lib.DAL.EFCore\\Common.Lib.DAL.EFCore.csproj": {
+                "projectPath": "Y:\\Dropbox\\Disco_duro\\_PROYECTOS_PERSONALES\\_PROY_2019\\14_BA-DEVELOPER\\07_ITPROJECT\\IT-Project-.Net\\Core\\Common.Lib.DAL.EFCore\\Common.Lib.DAL.EFCore.csproj"
+              },
+              "Y:\\Dropbox\\Disco_duro\\_PROYECTOS_PERSONALES\\_PROY_2019\\14_BA-DEVELOPER\\07_ITPROJECT\\IT-Project-.Net\\Core\\Common.Lib\\Common.Lib.csproj": {
+                "projectPath": "Y:\\Dropbox\\Disco_duro\\_PROYECTOS_PERSONALES\\_PROY_2019\\14_BA-DEVELOPER\\07_ITPROJECT\\IT-Project-.Net\\Core\\Common.Lib\\Common.Lib.csproj"
+              },
+              "Y:\\Dropbox\\Disco_duro\\_PROYECTOS_PERSONALES\\_PROY_2019\\14_BA-DEVELOPER\\07_ITPROJECT\\IT-Project-.Net\\ItAcademyProjecteNET.Lib.DAL\\ItAcademyProjecteNET.Lib.DAL.csproj": {
+                "projectPath": "Y:\\Dropbox\\Disco_duro\\_PROYECTOS_PERSONALES\\_PROY_2019\\14_BA-DEVELOPER\\07_ITPROJECT\\IT-Project-.Net\\ItAcademyProjecteNET.Lib.DAL\\ItAcademyProjecteNET.Lib.DAL.csproj"
+              },
+              "Y:\\Dropbox\\Disco_duro\\_PROYECTOS_PERSONALES\\_PROY_2019\\14_BA-DEVELOPER\\07_ITPROJECT\\IT-Project-.Net\\ItAcademyProjecteNET.Lib\\ItAcademyProjecteNET.Lib.csproj": {
+                "projectPath": "Y:\\Dropbox\\Disco_duro\\_PROYECTOS_PERSONALES\\_PROY_2019\\14_BA-DEVELOPER\\07_ITPROJECT\\IT-Project-.Net\\ItAcademyProjecteNET.Lib\\ItAcademyProjecteNET.Lib.csproj"
+              },
+              "Y:\\Dropbox\\Disco_duro\\_PROYECTOS_PERSONALES\\_PROY_2019\\14_BA-DEVELOPER\\07_ITPROJECT\\IT-Project-.Net\\ItAcademyProjecteNET\\ItAcademyProjecteNET.csproj": {
+                "projectPath": "Y:\\Dropbox\\Disco_duro\\_PROYECTOS_PERSONALES\\_PROY_2019\\14_BA-DEVELOPER\\07_ITPROJECT\\IT-Project-.Net\\ItAcademyProjecteNET\\ItAcademyProjecteNET.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.TestHost": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.6.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.1, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Y:\\Dropbox\\Disco_duro\\_PROYECTOS_PERSONALES\\_PROY_2019\\14_BA-DEVELOPER\\07_ITPROJECT\\IT-Project-.Net\\ItAcademyProjecteNET.Lib.DAL\\ItAcademyProjecteNET.Lib.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Y:\\Dropbox\\Disco_duro\\_PROYECTOS_PERSONALES\\_PROY_2019\\14_BA-DEVELOPER\\07_ITPROJECT\\IT-Project-.Net\\ItAcademyProjecteNET.Lib.DAL\\ItAcademyProjecteNET.Lib.DAL.csproj",
+        "projectName": "ItAcademyProjecteNET.Lib.DAL",
+        "projectPath": "Y:\\Dropbox\\Disco_duro\\_PROYECTOS_PERSONALES\\_PROY_2019\\14_BA-DEVELOPER\\07_ITPROJECT\\IT-Project-.Net\\ItAcademyProjecteNET.Lib.DAL\\ItAcademyProjecteNET.Lib.DAL.csproj",
+        "packagesPath": "C:\\Users\\pccom\\.nuget\\packages\\",
+        "outputPath": "Y:\\Dropbox\\Disco_duro\\_PROYECTOS_PERSONALES\\_PROY_2019\\14_BA-DEVELOPER\\07_ITPROJECT\\IT-Project-.Net\\ItAcademyProjecteNET.Lib.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pccom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "Y:\\Dropbox\\Disco_duro\\_PROYECTOS_PERSONALES\\_PROY_2019\\14_BA-DEVELOPER\\07_ITPROJECT\\IT-Project-.Net\\Core\\Common.Lib.DAL.EFCore\\Common.Lib.DAL.EFCore.csproj": {
+                "projectPath": "Y:\\Dropbox\\Disco_duro\\_PROYECTOS_PERSONALES\\_PROY_2019\\14_BA-DEVELOPER\\07_ITPROJECT\\IT-Project-.Net\\Core\\Common.Lib.DAL.EFCore\\Common.Lib.DAL.EFCore.csproj"
+              },
+              "Y:\\Dropbox\\Disco_duro\\_PROYECTOS_PERSONALES\\_PROY_2019\\14_BA-DEVELOPER\\07_ITPROJECT\\IT-Project-.Net\\ItAcademyProjecteNET.Lib\\ItAcademyProjecteNET.Lib.csproj": {
+                "projectPath": "Y:\\Dropbox\\Disco_duro\\_PROYECTOS_PERSONALES\\_PROY_2019\\14_BA-DEVELOPER\\07_ITPROJECT\\IT-Project-.Net\\ItAcademyProjecteNET.Lib\\ItAcademyProjecteNET.Lib.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Y:\\Dropbox\\Disco_duro\\_PROYECTOS_PERSONALES\\_PROY_2019\\14_BA-DEVELOPER\\07_ITPROJECT\\IT-Project-.Net\\ItAcademyProjecteNET.Lib\\ItAcademyProjecteNET.Lib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Y:\\Dropbox\\Disco_duro\\_PROYECTOS_PERSONALES\\_PROY_2019\\14_BA-DEVELOPER\\07_ITPROJECT\\IT-Project-.Net\\ItAcademyProjecteNET.Lib\\ItAcademyProjecteNET.Lib.csproj",
+        "projectName": "ItAcademyProjecteNET.Lib",
+        "projectPath": "Y:\\Dropbox\\Disco_duro\\_PROYECTOS_PERSONALES\\_PROY_2019\\14_BA-DEVELOPER\\07_ITPROJECT\\IT-Project-.Net\\ItAcademyProjecteNET.Lib\\ItAcademyProjecteNET.Lib.csproj",
+        "packagesPath": "C:\\Users\\pccom\\.nuget\\packages\\",
+        "outputPath": "Y:\\Dropbox\\Disco_duro\\_PROYECTOS_PERSONALES\\_PROY_2019\\14_BA-DEVELOPER\\07_ITPROJECT\\IT-Project-.Net\\ItAcademyProjecteNET.Lib\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pccom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "Y:\\Dropbox\\Disco_duro\\_PROYECTOS_PERSONALES\\_PROY_2019\\14_BA-DEVELOPER\\07_ITPROJECT\\IT-Project-.Net\\Core\\Common.Lib\\Common.Lib.csproj": {
+                "projectPath": "Y:\\Dropbox\\Disco_duro\\_PROYECTOS_PERSONALES\\_PROY_2019\\14_BA-DEVELOPER\\07_ITPROJECT\\IT-Project-.Net\\Core\\Common.Lib\\Common.Lib.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.IdentityModel.JsonWebTokens": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Y:\\Dropbox\\Disco_duro\\_PROYECTOS_PERSONALES\\_PROY_2019\\14_BA-DEVELOPER\\07_ITPROJECT\\IT-Project-.Net\\ItAcademyProjecteNET\\ItAcademyProjecteNET.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Y:\\Dropbox\\Disco_duro\\_PROYECTOS_PERSONALES\\_PROY_2019\\14_BA-DEVELOPER\\07_ITPROJECT\\IT-Project-.Net\\ItAcademyProjecteNET\\ItAcademyProjecteNET.csproj",
+        "projectName": "ItAcademyProjecteNET",
+        "projectPath": "Y:\\Dropbox\\Disco_duro\\_PROYECTOS_PERSONALES\\_PROY_2019\\14_BA-DEVELOPER\\07_ITPROJECT\\IT-Project-.Net\\ItAcademyProjecteNET\\ItAcademyProjecteNET.csproj",
+        "packagesPath": "C:\\Users\\pccom\\.nuget\\packages\\",
+        "outputPath": "Y:\\Dropbox\\Disco_duro\\_PROYECTOS_PERSONALES\\_PROY_2019\\14_BA-DEVELOPER\\07_ITPROJECT\\IT-Project-.Net\\ItAcademyProjecteNET\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pccom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "Y:\\Dropbox\\Disco_duro\\_PROYECTOS_PERSONALES\\_PROY_2019\\14_BA-DEVELOPER\\07_ITPROJECT\\IT-Project-.Net\\ItAcademyProjecteNET.Lib.DAL\\ItAcademyProjecteNET.Lib.DAL.csproj": {
+                "projectPath": "Y:\\Dropbox\\Disco_duro\\_PROYECTOS_PERSONALES\\_PROY_2019\\14_BA-DEVELOPER\\07_ITPROJECT\\IT-Project-.Net\\ItAcademyProjecteNET.Lib.DAL\\ItAcademyProjecteNET.Lib.DAL.csproj"
+              },
+              "Y:\\Dropbox\\Disco_duro\\_PROYECTOS_PERSONALES\\_PROY_2019\\14_BA-DEVELOPER\\07_ITPROJECT\\IT-Project-.Net\\ItAcademyProjecteNET.Lib\\ItAcademyProjecteNET.Lib.csproj": {
+                "projectPath": "Y:\\Dropbox\\Disco_duro\\_PROYECTOS_PERSONALES\\_PROY_2019\\14_BA-DEVELOPER\\07_ITPROJECT\\IT-Project-.Net\\ItAcademyProjecteNET.Lib\\ItAcademyProjecteNET.Lib.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

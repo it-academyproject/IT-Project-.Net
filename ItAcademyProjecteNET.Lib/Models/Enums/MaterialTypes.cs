@@ -10,6 +10,5 @@ namespace ItAcademyProjecteNET.Lib.Models.Enums
         video = 1,
         document = 2,
         other = 3
-
     }
 }

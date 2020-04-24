@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ItAcademyProjecteNET.App;
 using ItAcademyProjecteNET.Lib.DAL.Context;
 using ItAcademyProjecteNET.Lib.Models;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -32,9 +33,12 @@ namespace ItAcademyProjecteNET
         {
             services.AddControllers();
 
+            var dbConnection = Configuration.GetConnectionString("DefaultConnection");
             services.AddDbContext<ItAcademyDbContext>(options =>
-                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"), 
-                b => b.MigrationsAssembly("ItAcademyProjecteNET")));
+                options.UseSqlServer(dbConnection, b => b.MigrationsAssembly("ItAcademyProjecteNET")));
+
+            var bootstrapper = new Bootstrapper();
+            bootstrapper.Init();
 
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 .AddJwtBearer(options =>
@@ -51,6 +55,7 @@ namespace ItAcademyProjecteNET
                         ValidateIssuerSigningKey = true,
                     };
                 });
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

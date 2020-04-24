@@ -1,4 +1,5 @@
-﻿using ItAcademyProjecteNET.Lib.Models;
+﻿using Common.Lib.Core;
+using ItAcademyProjecteNET.Lib.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -14,6 +15,7 @@ namespace ItAcademyProjecteNET.Lib.DAL.Context
         {
 
         }
+
         public DbSet<Person> Persons { get; set; }
         public DbSet<Student> Students { get; set; }
         public DbSet<Event> Events { get; set; }
@@ -30,6 +32,16 @@ namespace ItAcademyProjecteNET.Lib.DAL.Context
                 return true;
             else return false;
         }
+
+
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            base.OnModelCreating(builder);
+
+            builder.Entity<Entity>()
+                .Ignore(x => x.Validation);
+        }
+
     }
     
 }

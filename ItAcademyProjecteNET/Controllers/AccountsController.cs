@@ -36,7 +36,7 @@ namespace ItAcademyProjecteNET.Controllers
         //POST : /api/Accounts/Register
         public async Task<Object> PostAccount([FromForm] Person person)
         {
-            var applicationUser = new Person()
+            var applicationUser = new Student()
             {
                 Name = person.Name,
                 LastName = person.LastName,

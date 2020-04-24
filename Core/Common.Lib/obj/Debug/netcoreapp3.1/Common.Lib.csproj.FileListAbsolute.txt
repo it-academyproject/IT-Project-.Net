@@ -1,0 +1,35 @@
+D:\IT_Academy\C#\ExamDecember2019\WPFAcademy\0 Core\Common.Lib\bin\Debug\netcoreapp3.1\Common.Lib.deps.json
+D:\IT_Academy\C#\ExamDecember2019\WPFAcademy\0 Core\Common.Lib\bin\Debug\netcoreapp3.1\Common.Lib.dll
+D:\IT_Academy\C#\ExamDecember2019\WPFAcademy\0 Core\Common.Lib\bin\Debug\netcoreapp3.1\Common.Lib.pdb
+D:\IT_Academy\C#\ExamDecember2019\WPFAcademy\0 Core\Common.Lib\obj\Debug\netcoreapp3.1\Common.Lib.csprojAssemblyReference.cache
+D:\IT_Academy\C#\ExamDecember2019\WPFAcademy\0 Core\Common.Lib\obj\Debug\netcoreapp3.1\Common.Lib.AssemblyInfoInputs.cache
+D:\IT_Academy\C#\ExamDecember2019\WPFAcademy\0 Core\Common.Lib\obj\Debug\netcoreapp3.1\Common.Lib.AssemblyInfo.cs
+D:\IT_Academy\C#\ExamDecember2019\WPFAcademy\0 Core\Common.Lib\obj\Debug\netcoreapp3.1\Common.Lib.dll
+D:\IT_Academy\C#\ExamDecember2019\WPFAcademy\0 Core\Common.Lib\obj\Debug\netcoreapp3.1\Common.Lib.pdb
+D:\IT_Academy\C#\ProjectITAcademy\6a iteración\Rama7\IT-Project-.Net-N-7\Core\Common.Lib\bin\Debug\netcoreapp3.1\Common.Lib.deps.json
+D:\IT_Academy\C#\ProjectITAcademy\6a iteración\Rama7\IT-Project-.Net-N-7\Core\Common.Lib\bin\Debug\netcoreapp3.1\Common.Lib.dll
+D:\IT_Academy\C#\ProjectITAcademy\6a iteración\Rama7\IT-Project-.Net-N-7\Core\Common.Lib\bin\Debug\netcoreapp3.1\Common.Lib.pdb
+D:\IT_Academy\C#\ProjectITAcademy\6a iteración\Rama7\IT-Project-.Net-N-7\Core\Common.Lib\obj\Debug\netcoreapp3.1\Common.Lib.csprojAssemblyReference.cache
+D:\IT_Academy\C#\ProjectITAcademy\6a iteración\Rama7\IT-Project-.Net-N-7\Core\Common.Lib\obj\Debug\netcoreapp3.1\Common.Lib.csproj.CoreCompileInputs.cache
+D:\IT_Academy\C#\ProjectITAcademy\6a iteración\Rama7\IT-Project-.Net-N-7\Core\Common.Lib\obj\Debug\netcoreapp3.1\Common.Lib.AssemblyInfoInputs.cache
+D:\IT_Academy\C#\ProjectITAcademy\6a iteración\Rama7\IT-Project-.Net-N-7\Core\Common.Lib\obj\Debug\netcoreapp3.1\Common.Lib.AssemblyInfo.cs
+D:\IT_Academy\C#\ProjectITAcademy\6a iteración\Rama7\IT-Project-.Net-N-7\Core\Common.Lib\obj\Debug\netcoreapp3.1\Common.Lib.dll
+D:\IT_Academy\C#\ProjectITAcademy\6a iteración\Rama7\IT-Project-.Net-N-7\Core\Common.Lib\obj\Debug\netcoreapp3.1\Common.Lib.pdb
+D:\IT_Academy\C#\ProjectITAcademy\6a iteración\Rama7\IT-Project-.Net-N-7 - copia\Core\Common.Lib\bin\Debug\netcoreapp3.1\Common.Lib.deps.json
+D:\IT_Academy\C#\ProjectITAcademy\6a iteración\Rama7\IT-Project-.Net-N-7 - copia\Core\Common.Lib\bin\Debug\netcoreapp3.1\Common.Lib.dll
+D:\IT_Academy\C#\ProjectITAcademy\6a iteración\Rama7\IT-Project-.Net-N-7 - copia\Core\Common.Lib\bin\Debug\netcoreapp3.1\Common.Lib.pdb
+D:\IT_Academy\C#\ProjectITAcademy\6a iteración\Rama7\IT-Project-.Net-N-7 - copia\Core\Common.Lib\obj\Debug\netcoreapp3.1\Common.Lib.csprojAssemblyReference.cache
+D:\IT_Academy\C#\ProjectITAcademy\6a iteración\Rama7\IT-Project-.Net-N-7 - copia\Core\Common.Lib\obj\Debug\netcoreapp3.1\Common.Lib.csproj.CoreCompileInputs.cache
+D:\IT_Academy\C#\ProjectITAcademy\6a iteración\Rama7\IT-Project-.Net-N-7 - copia\Core\Common.Lib\obj\Debug\netcoreapp3.1\Common.Lib.AssemblyInfoInputs.cache
+D:\IT_Academy\C#\ProjectITAcademy\6a iteración\Rama7\IT-Project-.Net-N-7 - copia\Core\Common.Lib\obj\Debug\netcoreapp3.1\Common.Lib.AssemblyInfo.cs
+D:\IT_Academy\C#\ProjectITAcademy\6a iteración\Rama7\IT-Project-.Net-N-7 - copia\Core\Common.Lib\obj\Debug\netcoreapp3.1\Common.Lib.dll
+D:\IT_Academy\C#\ProjectITAcademy\6a iteración\Rama7\IT-Project-.Net-N-7 - copia\Core\Common.Lib\obj\Debug\netcoreapp3.1\Common.Lib.pdb
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\07_ITPROJECT\IT-Project-.Net\Core\Common.Lib\obj\Debug\netcoreapp3.1\Common.Lib.csproj.CoreCompileInputs.cache
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\07_ITPROJECT\IT-Project-.Net\Core\Common.Lib\obj\Debug\netcoreapp3.1\Common.Lib.AssemblyInfoInputs.cache
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\07_ITPROJECT\IT-Project-.Net\Core\Common.Lib\obj\Debug\netcoreapp3.1\Common.Lib.AssemblyInfo.cs
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\07_ITPROJECT\IT-Project-.Net\Core\Common.Lib\bin\Debug\netcoreapp3.1\Common.Lib.deps.json
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\07_ITPROJECT\IT-Project-.Net\Core\Common.Lib\bin\Debug\netcoreapp3.1\Common.Lib.dll
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\07_ITPROJECT\IT-Project-.Net\Core\Common.Lib\bin\Debug\netcoreapp3.1\Common.Lib.pdb
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\07_ITPROJECT\IT-Project-.Net\Core\Common.Lib\obj\Debug\netcoreapp3.1\Common.Lib.csprojAssemblyReference.cache
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\07_ITPROJECT\IT-Project-.Net\Core\Common.Lib\obj\Debug\netcoreapp3.1\Common.Lib.dll
+Y:\Dropbox\Disco_duro\_PROYECTOS_PERSONALES\_PROY_2019\14_BA-DEVELOPER\07_ITPROJECT\IT-Project-.Net\Core\Common.Lib\obj\Debug\netcoreapp3.1\Common.Lib.pdb

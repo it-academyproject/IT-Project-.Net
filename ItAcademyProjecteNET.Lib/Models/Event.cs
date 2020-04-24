@@ -1,4 +1,5 @@
-﻿using ItAcademyProjecteNET.Lib.Models.Enums;
+﻿using Common.Lib.Core;
+using ItAcademyProjecteNET.Lib.Models.Enums;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -7,12 +8,13 @@ using System.Threading.Tasks;
 
 namespace ItAcademyProjecteNET.Lib.Models
 {
-    public class Event
+    public class Event : Entity
     {
-        public int Id { get; set; }
         public string Name { get; set; }
 
         public string Description { get; set; }
+
+        public string Place { get; set; }
 
         public DateTime Date { get; set; }
 
@@ -20,8 +22,7 @@ namespace ItAcademyProjecteNET.Lib.Models
         [NotMapped]
         public virtual ICollection<Student> Students { get; set; }
 
-        public string Place { get; set; }
-
+        
         [Column("EventType")]
         public string EventTypeString
         {
